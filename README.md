@@ -50,7 +50,7 @@
 
 由上述模块构成的系统功能模块图如图2-1所示。
 
-![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/docs/pics/module.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs/pics/module.png)
 
 图2-1 族谱系统功能模块图
 
@@ -60,7 +60,7 @@
 
 族谱系统的功能包括 **打印族谱** 、 **查询成员信息** 、 **添加成员** 、 **编辑成员** 、 **删除成员** 、 **退出程序** 。因为读取txt文件为必须操作，所以无需添加在功能界面，启动时自动完成即可。系统主菜单的设计如图2-2所示。
 
-![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/docs/pics/menu.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs/pics/menu.png)
 
 图2-2 系统主菜单UI设计
 
@@ -68,7 +68,7 @@
 
 由于本系统要求根据多种条件进行查询，因此可以为查询模块单独设计了一个子菜单界面，用以选择查询依据的条件。其功能包括 **按姓名查询** 、 **按代查询** 、 **退出查询** ，共计两种查询方式。查询模块的设计如图2-3所示。
 
-![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/docs/pics/search.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs/pics/search.png)
 
 图2-3 查询模块子菜单UI设计
 
@@ -76,7 +76,7 @@
 
 除了按姓名和按代查询，系统还要求可以查询父亲、孩子以及兄弟，而这三者的实现均依赖于某一指定成员。因此，可以通过在具体成员信息下显示一个二级查询界面，来实现以上三种查询。功能包括查询父亲、查询孩子、查询兄弟、退出查询。二级查询子菜单界面设计如图2-4所示。
 
-![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/docs/pics/second_search.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs/pics/second_search.png)
 
 图2-4 二级查询子菜单UI设计
 
@@ -92,6 +92,6 @@
 
 综上，族谱系统包括树节点、树、族谱、界面共四个对象，其中树节点、树与数据的存储、组织有关，族谱和界面与功能的实现与操作有关。将这四者进行分析和抽象，确定各类对象的属性和服务就可以得到对应的类，即树节点类，树类，族谱类以及界面类。这四个类的属性合计服务设计如图2-5所示。
 
-![](https:\\github.com\Hamilton-Liu\JSU_DSA_2024_Fall_Course_Design\docs\pics\UML.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs\pics\UML.png)
 
 图2-5 系统的类图
