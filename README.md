@@ -92,6 +92,6 @@
 
 综上，族谱系统包括树节点、树、族谱、界面共四个对象，其中树节点、树与数据的存储、组织有关，族谱和界面与功能的实现与操作有关。将这四者进行分析和抽象，确定各类对象的属性和服务就可以得到对应的类，即树节点类，树类，族谱类以及界面类。这四个类的属性合计服务设计如图2-5所示。
 
-![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs\pics\UML.png)
+![](https://github.com/Hamilton-Liu/JSU_DSA_2024_Fall_Course_Design/blob/main/docs/pics/UML.png)
 
 图2-5 系统的类图
